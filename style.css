@@ -1,0 +1,34 @@
+body{
+    font-family: 'Mooli', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.head{
+    color: cornflowerblue;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+a{
+    
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: azure;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
