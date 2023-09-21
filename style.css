@@ -81,3 +81,33 @@ footer p{
     background-color: rosybrown;
     padding: 15px;
 }
+.viewers{
+    display: flex;
+    margin: 5%;
+    
+}
+.first{
+    padding: 10%;
+    box-shadow: 5px 5px 15px red;
+    border-left: 5px solid red;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 800;
+}
+.second{
+    padding: 10%;
+    box-shadow: 5px 5px 15px blue;
+    border-left: 5px solid blue;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 600;
+    
+}
+.third{
+    padding: 10%;
+    box-shadow: 5px 5px 15px green;
+    border-left: 5px solid green;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 600;
+}
