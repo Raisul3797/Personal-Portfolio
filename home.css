@@ -1,15 +1,17 @@
 body{
     
 }
-header{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: bisque;
 }
 h2{
     font-family: 'Mooli', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800px;
+    margin-left: 200px;
 }
 nav ul li{
     list-style: none;
@@ -24,10 +26,26 @@ nav ul{
 span{
     color: orange;
 }
-button{
+button, a{
     background-color: orange;
     border-radius: 5px;
     border: 0;
     color: white;
     padding: 8px 18px 8px 18px;
+    text-decoration: none;
+}
+.contact-btn{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px 18px 8px 18px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
 }
