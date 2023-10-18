@@ -1,6 +1,9 @@
 body{
     
 }
+header{
+    margin-bottom: 50px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -15,7 +18,7 @@ h2{
 }
 nav ul li{
     list-style: none;
-    margin-right: 50px;
+    margin: 0 50px;
     
 }
 nav ul{
@@ -26,26 +29,70 @@ nav ul{
 span{
     color: orange;
 }
-button, a{
+a{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+button{
     background-color: orange;
     border-radius: 5px;
     border: 0;
     color: white;
-    padding: 8px 18px 8px 18px;
-    text-decoration: none;
+    padding: 15px 35px;
+    text-decoration: none; 
 }
 .contact-btn{
-    background-color: whitesmoke;
-    color: black;
+    color: orange;
+    background-color: wheat;
     border-radius: 5px;
     border: 0;
-    padding: 8px 18px 8px 18px;
+    padding: 10px 35px;
+    font-size: 20px;
 }
 img{
     height: 300px;
     width: 300px;
+    margin-top: 20px;
 }
 .banner{
+    background-color: bisque;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 30px 30px 0 150px;
+}
+.about{
+    text-align: center;
+    font-size: 35px;
+}
+.description{
+    font-size: 18PX;
+    text-align: justify;
+    
+}
+
+.main{
+    /* margin: 130px 0; */
+    max-width: 1140px;
+    background-color: bisque;
+    
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+main{
+    margin: 0 auto;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    text-align: center;
+}
+.info-description{
+    font-weight: 700px;
 }
