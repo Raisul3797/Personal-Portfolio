@@ -113,10 +113,13 @@ main{
 .sub-main{
     height: 300px;
     width: 250px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border: 0;
+    box-shadow: 10px 10px 30px grey;
     border-radius: 5px;
     padding: 15px;
     gap: 24px;
+    margin-bottom: 40px;
 }
 .main4{
     margin-top: 40px;
@@ -140,9 +143,9 @@ main{
 .footer-left{
     width: 50%;
 }
-h4{
+/* h4{
     text-align: center;
-}
+} */
 input, textarea{
     display: block;
     margin-bottom: 10px;
@@ -150,4 +153,31 @@ input, textarea{
     padding: 10px 0 10px 5px ;
     border: 0;
     border-radius: 5px;
+}
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px grey;
+    padding: 15px;
+}
+.edu{
+    text-align: center;
+}
+.main5{
+    width: 50%;
+}
+.main6{
+    width: 50%;
+}
+.des{
+    text-align: justify;
+}
+.last{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 2%;
 }
